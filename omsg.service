@@ -1,0 +1,8 @@
+[Unit]
+Description=OMSG Service
+
+[Service]
+ExecStart=/home/root/edison-oled-msg-master/omsg
+
+[Install]
+Wantedby=multi-user.target
